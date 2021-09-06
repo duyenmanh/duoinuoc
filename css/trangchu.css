@@ -1,0 +1,988 @@
+header{
+    padding-top: 1%;
+}
+.h1-header{
+    font-weight: bold;
+    font-family: Calibri;
+    font-size: 36px;
+    text-transform: uppercase;
+    color: #0198CF;
+}
+.img-header{
+    margin-left: 69%;
+}
+.form-control-header {
+    position: absolute;
+    display: block;
+    width: 44%;
+    height: calc(1.5em + .75rem + 2px);
+    padding: 0.375rem .75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #495057;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: 26px;
+    outline:none;
+    transition: border-color 1s ease-in-out,box-shadow 1s ease-in-out;
+}
+.input-group{
+    padding-left: 11%;
+}
+.btn-search{
+    position: relative;
+    outline: none;
+    margin-left: 43%;
+}
+#toggle{
+    display: none;
+}
+.menu-header{
+    background-color: #0198CF;
+    width: 100%;
+    height: 60px;
+}
+.menu-header a{
+    color: white;
+    text-decoration: none;
+}
+.menu-header ul{
+    list-style-type: none;
+}
+.menu-header li {
+    display: inline-block;
+    text-align: center;
+    margin-left: 4%;
+    margin-top: 0%;
+    padding: 1%;
+}
+.menu-header li:hover{
+    transition: 1s;
+    background-color: green;
+}
+.fa-search{
+    color: #0198CF;
+}
+.img-all{
+    /*position: absolute;*/
+    border: 1px solid #0198CF;
+    width: 100%;
+}
+.hoat-dong{
+    position: relative;
+    padding: 0;
+    margin-top: -139px;
+
+}
+.hoat-dong1 p{
+    color: white;
+    text-transform: uppercase;
+    font-family: Calibri;
+    font-size: 22px;
+    padding-left: 5%;
+}
+.hoat-dong2 p{
+    color: black;
+    padding-left: 5%;
+    padding-bottom: 15px;
+    padding-right: 1%;
+    padding-top: 2%;
+}
+.hoat-dong1{
+    background: #EE2F72;
+    padding-bottom: 1px;
+    opacity: 0.8;
+    border-radius:0 20px 0 0;
+    padding-top: 2%;
+}
+.hoat-dong2{
+    background: white;
+    opacity: 0.8;
+}
+.btn-next{
+    margin-left: 52%;
+    border: 3px solid white;
+    padding: 5px;
+    border-radius: 90% 90% 90% 90%;
+    color: white;
+    padding-bottom: 1px;
+    padding-top: 1px;
+}
+.btn-next:hover{
+    transition: 1s;
+    color: #0198CF;
+}
+.img-know{
+    width: 100%;
+    position: absolute;
+}
+.know{
+    position: relative;
+    width: 100%;
+    margin-bottom: 3%;
+}
+.h1-know{
+    text-align: center;
+    font-family: "Roboto Condensed";
+    font-weight: bold;
+    font-size: 36px;
+    color: white;
+    margin-top: -1%;
+    padding-top: 2%;
+}
+.do-u-know{
+    width: 100%;
+}
+.know-all{
+    padding-left: 10%;
+}
+.know1,.know2,.know3{
+    background-color: white;
+    max-width: 503px;
+    max-height: 248px;
+    border-radius: 30px;
+}
+.know2{
+    margin-left: 2%;
+    margin-right: 2%;
+}
+.p-01-1{
+    max-width: 63px;
+    max-height: 86.95px;
+}
+.know-img{
+    float: right;
+    width: 54px;
+    padding-bottom: 2%;
+}
+.know1,.know2,.know3 p{
+    font-size: 22px;
+    font-family: "Roboto Condensed";
+    font-weight: bold;
+}
+.know1 p{
+    color: #215C7C;
+}
+.know2 p {
+    color: #E11B51;
+}
+.know3 p{
+    color: #33684B;
+}
+.student-all{
+}
+.student {
+    margin-top: -16%;
+    margin-left: 94%;
+}
+.h1-student{
+    font-family: "Roboto Condensed";
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-right: 47%;
+}
+.btn-view-more{
+    background-color: #0198CF;
+    color: white;
+    border: none;
+    text-align: center;
+    display: inline-block;
+    font-size: 20px;
+    border-radius: 15px;
+    padding: 8px 30px;
+    border-radius: 55px;
+    outline-color: white;
+    margin-top: 10%;
+}
+button:focus{
+    outline: none;
+}
+.thongke p{
+    margin-right: 10%;
+}
+.know-all-1{
+    padding: 0;
+    background-image: url("../image/do-u-know.jpg");
+    background-repeat: no-repeat;
+    padding-bottom: 10%;
+    background-size: cover;
+}
+.chuong-trinh{
+    background-image: url("../image/do-u-know.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.btn-ex1{
+    position: absolute;
+}
+.ex1{
+    width: 707px;
+    height: 493px;
+    background-color: white;
+    text-align: center;
+    border-radius: 10px;
+    margin-bottom: 2%;
+    margin-left: 16%;
+}
+.img-ex1 img{
+    max-height: 424px;
+    max-width: 730px;
+    margin-top: 20px;
+}
+.btn-ex1{
+    color: white;
+    border: none;
+    text-align: center;
+    display: inline-block;
+    margin-top: 20%;
+    margin-left: 32%;
+}
+.baihoc1 a{
+    float: left;
+    text-decoration: none;
+    color: black;
+    font-family: roboto;
+    margin-left: 3%;
+    margin-top: 1%;
+    font-weight: bold;
+}
+.btn-ex1{
+    position: absolute;
+}
+.ex2{
+    width: 707px;
+    height: 493px;
+    background-color: white;
+    text-align: center;
+    border-radius: 10px;
+    margin-bottom: 2%;
+    margin-left: 9%;
+}
+.img-ex2 img{
+    max-height: 424px;
+    max-width: 730px;
+    margin-top: 20px;
+}
+.btn-ex1{
+    color: white;
+    border: none;
+    text-align: center;
+    display: inline-block;
+    margin-top: 20%;
+    margin-left: 32%;
+}
+.baihoc2 a{
+    float: left;
+    text-decoration: none;
+    color: black;
+    font-family: roboto;
+    margin-left: 3%;
+    margin-top: 1%;
+    font-weight: bold;
+}
+.chuong-trinh h1{
+    text-align: center;
+    padding-top: 3%;
+    padding-bottom: 1%;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: white;
+}
+.text-sk1 {
+    position: absolute;
+    margin-top: -4%;
+    width: 463px;
+    height: 246px;
+    background: white;
+    border-radius: 9px;
+    margin-left: 20px;
+}
+.text-sk1 a,p{
+    margin-right: 20px;
+    margin-left: 20px;
+}
+.sk {
+    margin-left: 4%;
+    margin-right: 1%;
+}
+.su-kien h1{
+    text-align: center;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-family: "Roboto Condensed";
+    margin-bottom: 3%;
+    padding-top: 3%;
+
+}
+.su-kien{
+    background-color: #F1F7FA;
+    height: 754px;
+}
+.sk a{
+    float: left;
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+}
+.sk a:hover{
+    transition: 1s;
+    color: #ff253a;
+}
+.time-sk1{
+    color: #888888;
+    margin-top: 14%;
+}
+.text-sk1-1{
+    color: #555555;
+}
+.view-more{
+    text-align: center;
+}
+.icon,.icon1,.icon2,.icon3 {
+    width: 370px;
+    height: 205px;
+    text-align: center;
+    box-shadow: 0px 15px 30px rgba(0, 0, 0, 0.1);
+}
+.icon img{
+    margin-top: 7%;
+}
+.icon1 img{
+    margin-top: 6%;
+}
+.dt2{
+    margin-top: 4%;
+}
+.doi-tac h1{
+    text-align: center;
+    margin-top: 3%;
+    margin-bottom: 3%;
+    font-weight: bold;
+    font-family: "Roboto Condensed";
+    text-transform: uppercase;
+}
+.icon2{
+    margin-left: 12%;
+}
+.icon2 img,.icon3 img{
+    margin-top: 18%;
+}
+.icon1{
+    margin-left: 22%;
+}
+.doi-tac1{
+    padding-left: 6%;
+}
+.lien-he{
+    background: #0198CF;
+}
+.thong-tin ul{
+    list-style-type: none;
+}
+.thong-tin li p{
+    color: white;
+}
+.c p{
+    padding-top: 1%;
+    padding-bottom: 1%;
+    color: white;
+}
+
+.c{
+    text-align: center;
+    background: #13A0D3;
+}
+.text-lien-he{
+    width: 397px;
+    margin-left: 10%;
+}
+.lien-he{
+    padding-top: 2%;
+    margin-top: 2%;
+}
+.text-lien-he h1{
+    color: white;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-family: "Roboto Condensed";
+    font-size: 30px;
+}
+.text-lien-he p{
+    margin: 0;
+    color: white;
+}
+.text-lien-he img{
+    padding-bottom: 5%;
+}
+.thong-tin p{
+    margin-left: 0;
+    margin-top: 5%;
+}
+.thong-tin h1{
+    color: white;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-family: "Roboto Condensed";
+    font-size: 30px;
+}
+
+.follow h1{
+    text-transform: uppercase;
+    font-weight: bold;
+    font-family: "Roboto Condensed";
+    font-size: 30px;
+    color: white;
+    padding-bottom: 4%;
+}
+.follow ul{
+    list-style-type: none;
+}
+.follow a,.follow p,.follow input, .follow button{
+    margin-left: 0;
+    margin-top: 3%;
+}
+.follow p{
+    color: white;
+}
+.text-email{
+    width: 361px;
+    height: 45px;
+    background: #FFFFFF;
+    opacity: 0.3;
+    border: 1px solid #EBEBEB;
+    box-sizing: border-box;
+    border-radius: 5px;
+    color: black;
+}
+.btn-dki{
+    color: #0198CF;
+    border: none;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+    padding: 8px 30px;
+    border-radius: 55px;
+    outline-color: white;
+    margin-top: 10%;
+    background-color: white;
+    font-family: sarabun;
+}
+#myBtn{
+    position: absolute;
+    margin-top: -16%;
+    margin-left: 91%;
+}
+.student-all{
+    margin-top: 2%;
+}
+.studen1{
+    width: 100%;
+}
+@media  (width: 414px){
+    .img-header {
+        margin-left: 36%;
+    }
+    .h1-header{
+        font-size: 22px;
+    }
+    .btn-next{
+        margin-left: 4%;
+    }
+    .hoat-dong1{
+        margin-top: 34%;
+    }
+    .know2,.know1,.know3 {
+        margin-left: -3%;
+        margin-right: 0%;
+        margin-bottom: 3%;
+    }
+    .input-group{
+        padding-left: 0;
+    }
+    .btn-search{
+        margin-left: 85%;
+    }
+    .form-control-header{
+        width: 100%;
+    }
+    .studen1{
+        width: 100%;
+    }
+    .student {
+        margin-top: 5%;
+        margin-left: 0%;
+    }
+    .thongke p {
+        margin-right: 0%;
+    }
+    .text-sk1 a, p {
+        margin-right: 20px;
+        margin-left: 10px;
+    }
+    .h1-student{
+        margin: 0;
+    }
+    .img-ex1 img {
+        max-height: 424px;
+        max-width: 95%;
+        margin-top: 20px;
+    }
+    .ex1{
+        width: 100%;
+        height: 100%;
+        margin: 0;
+    }
+    .btn-ex1{
+        margin-left: 38%;
+    }
+    .img-ex2 img {
+        max-height: 100%;
+        max-width: 95%;
+        margin-top: 20px;
+    }
+    .ex2 {
+        width: 100%;
+        height: 100%;
+        background-color: white;
+        text-align: center;
+        border-radius: 10px;
+        margin-left: 0;
+    }
+    .video{
+        padding-bottom: 6%;
+    }
+    .sk{
+        margin-bottom: 33%;
+    }
+    .img-sk1{
+        height: 76%;
+    }
+    .chuongtrinh1{
+        margin-top: 3%;
+    }
+    .thongke{
+        margin-bottom: 5%;
+    }
+    .text-sk1 {
+        position: absolute;
+        margin-top: -18%;
+        width: 83%;
+        height: 278px;
+        background: white;
+        border-radius: 9px;
+        margin-left: 16px;
+    }
+    .img-sk{
+        width: 100%;
+    }
+    .doi-tac{
+        margin-top: 215%;
+    }
+    .doi-tac1{
+        padding-left: 9%;
+    }
+    .icon2,.icon1{
+        margin: 0;
+    }
+    .text-lien-he {
+        width: 100%;
+        margin-left: 0%;
+    }
+    .thong-tin p {
+        margin-left: -11%;
+        margin-top: 5%;
+    }
+    .thong-tin h1 {
+        color: white;
+        text-transform: uppercase;
+        font-weight: bold;
+        font-family: "Roboto Condensed";
+        font-size: 30px;
+        margin-left: -12%;
+        margin-top: 8%;
+    }
+    .call{
+        margin-left: -14%;
+    }
+    .follow ul{
+        margin-left: -9%;
+        margin-top: 4%;
+    }
+    #myBtn{
+        margin-left: 79%;
+    }
+}
+@media (width: 375px){
+    .img-header {
+        margin-left: 36%;
+    }
+    .h1-header{
+        font-size: 20px;
+    }
+    .btn-next{
+        margin-left: 4%;
+    }
+    .hoat-dong1{
+        margin-top: 37%;
+    }
+    .know2,.know1,.know3 {
+        margin-left: -3%;
+        margin-right: 0%;
+        margin-bottom: 3%;
+    }
+    .input-group{
+        padding-left: 0;
+    }
+    .btn-search{
+        margin-left: 85%;
+    }
+    .form-control-header{
+        width: 100%;
+    }
+    .studen1{
+        width: 100%;
+    }
+    .student {
+        margin-top: 5%;
+        margin-left: 0%;
+    }
+    .thongke p {
+        margin-right: 0%;
+    }
+    .text-sk1 a, p {
+        margin-right: 20px;
+        margin-left: 10px;
+    }
+    .h1-student{
+        margin: 0;
+    }
+    .img-ex1 img {
+        max-height: 424px;
+        max-width: 95%;
+        margin-top: 20px;
+    }
+    .ex1{
+        width: 100%;
+        height: 100%;
+        margin: 0;
+    }
+    .btn-ex1{
+        margin-left: 38%;
+    }
+    .img-ex2 img {
+        max-height: 100%;
+        max-width: 95%;
+        margin-top: 20px;
+    }
+    .ex2 {
+        width: 100%;
+        height: 100%;
+        background-color: white;
+        text-align: center;
+        border-radius: 10px;
+        margin-left: 0;
+    }
+    .video{
+        padding-bottom: 6%;
+    }
+    .sk{
+        margin-bottom: 33%;
+    }
+    .img-sk1{
+        height: 69%;
+    }
+    .chuongtrinh1{
+        margin-top: 3%;
+    }
+    .thongke{
+        margin-bottom: 5%;
+    }
+    .text-sk1 {
+        position: absolute;
+        margin-top: -18%;
+        width: 313px;
+        height: 278px;
+        background: white;
+        border-radius: 9px;
+        margin-left: 16px;
+    }
+    .img-sk{
+        width: 100%;
+    }
+    .doi-tac{
+        margin-top: 215%;
+    }
+    .doi-tac1{
+        padding-left: 4%;
+    }
+    .icon2,.icon1{
+        margin: 0;
+    }
+    .text-lien-he {
+        width: 100%;
+        margin-left: 0%;
+    }
+    .thong-tin p {
+        margin-left: -11%;
+        margin-top: 5%;
+    }
+    .thong-tin h1 {
+        color: white;
+        text-transform: uppercase;
+        font-weight: bold;
+        font-family: "Roboto Condensed";
+        font-size: 30px;
+        margin-left: -12%;
+        margin-top: 8%;
+    }
+    .call{
+        margin-left: -14%;
+    }
+    .follow ul{
+        margin-left: -13%;
+        margin-top: 4%;
+    }
+    #myBtn{
+        margin-left: 79%;
+    }
+}
+@media  ( width: 1024px) {
+    .menu-header li{
+        margin-left: 2%;
+    }
+    .menu-header{
+        height: 39px;
+    }
+    .hoat-dong1,.hoat-dong2{
+        width: 135%;
+    }
+    .btn-next{
+        margin-left: 6%;
+    }
+    .know2 {
+        margin-left: 0%;
+        margin-right: 0%;
+    }
+
+    .hoat-dong2 p {
+        color: black;
+        padding-left: 0%;
+        padding-bottom: 11px;
+        padding-right: 0%;
+        padding-top: 0%;
+    }
+    .know-all-1{
+        margin-top: -2%;
+    }
+    .know-all{
+        padding-left: 0;
+    }
+    .h1-student{
+        margin-right:  0;
+    }
+    .btn-view-more{
+        margin-top: 4%;
+        margin-bottom: 4%;
+    }
+    .img-ex1 img {
+        max-height: 100%;
+        max-width: 94%;
+        margin-top: 20px;
+    }
+    .ex1 {
+        width: 100%;
+        height: 100%;
+        background-color: white;
+        text-align: center;
+        border-radius: 10px;
+        margin-bottom: 2%;
+        margin-left: 0%;
+    }
+    .img-ex2 img {
+        max-height: 100%;
+        max-width: 94%;
+        margin-top: 20px;
+    }
+    .ex2 {
+        width: 100%;
+        height: 100%;
+        background-color: white;
+        text-align: center;
+        border-radius: 10px;
+        margin-bottom: 2%;
+        margin-left: 0%;
+    }
+    .chuong-trinh{
+        padding-bottom: 3%;
+    }
+    .sk {
+        margin-left: 24%;
+        margin-right: 1%;
+        margin-bottom: 32%;
+    }
+    .su-kien{
+        height: 100%;
+    }
+    .doi-tac1{
+        padding-left: 11%;
+    }
+    .choose{
+        max-width: 71%;
+        margin-right: 9%;
+    }
+    .icon1,.icon2{
+        margin-left: 0;
+    }
+    .icon3{
+        margin-left: 74%;
+    }
+    .text-lien-he{
+        margin-left: 6%;
+        width: 100%;
+    }
+    .thong-tin{
+        margin-left: -11%;
+        margin-top: 5%;
+        margin-bottom: 5%;
+    }
+    .follow{
+        margin-left: -20%;
+        margin-top: 5%;
+    }
+    .img-header{
+        margin-left: 5%;
+    }
+    .h1-header{
+        font-size: 24px;
+    }
+    .form-control-header{
+        width: 82%;
+    }
+    .btn-search{
+        margin-left: 75%;
+    }
+    #myBtn{
+        margin-top: -10%;
+        margin-left: 90%;
+    }
+    .text-email{
+        width: 100%;
+    }
+}
+@media ( width: 768px) {
+    .menu-header li{
+        margin-left: 2%;
+    }
+    .menu-header{
+        height: 39px;
+    }
+    .hoat-dong1,.hoat-dong2{
+        width: 135%;
+    }
+    .btn-next{
+        margin-left: 6%;
+    }
+    .hoat-dong2 p {
+        color: black;
+        padding-left: 0%;
+        padding-bottom: 11px;
+        padding-right: 0%;
+        padding-top: 0%;
+    }
+    .know-all-1{
+        margin-top: -2%;
+    }
+    .know-all{
+        padding-left: 20%;
+    }
+    .know2{
+        margin-left: 0;
+        margin-top: 3%;
+        margin-bottom: 3%;
+    }
+    .h1-student{
+        margin-right:  0;
+    }
+    .btn-view-more{
+        margin-top: 4%;
+        margin-bottom: 4%;
+    }
+    .img-ex1 img {
+        max-height: 100%;
+        max-width: 94%;
+        margin-top: 20px;
+    }
+    .ex1 {
+        width: 100%;
+        height: 100%;
+        background-color: white;
+        text-align: center;
+        border-radius: 10px;
+        margin-bottom: 2%;
+        margin-left: 0%;
+    }
+    .img-ex2 img {
+        max-height: 100%;
+        max-width: 94%;
+        margin-top: 20px;
+    }
+    .ex2 {
+        width: 100%;
+        height: 100%;
+        background-color: white;
+        text-align: center;
+        border-radius: 10px;
+        margin-bottom: 2%;
+        margin-left: 0%;
+    }
+    .chuong-trinh{
+        padding-bottom: 3%;
+    }
+    .sk {
+        margin-left: 18%;
+        margin-right: 1%;
+        margin-bottom: 32%;
+    }
+    .su-kien{
+        height: 100%;
+    }
+    .doi-tac1{
+        padding-left: 4%;
+    }
+    .choose{
+        max-width: 41%;
+        margin-left: 6%;
+    }
+    .icon1,.icon2{
+        margin-left: 0;
+    }
+    .icon3{
+        margin-left: 62%;
+    }
+    .text-lien-he{
+        margin-left: 21%;
+    }
+    .thong-tin{
+        margin-left: 15%;
+        margin-top: 5%;
+        margin-bottom: 5%;
+    }
+    .follow{
+        margin-left: 16%;
+    }
+    .img-header{
+        margin-left: 5%;
+    }
+    .h1-header{
+        font-size: 24px;
+    }
+    .form-control-header{
+        width: 82%;
+    }
+    .btn-search{
+        margin-left: 75%;
+    }
+
+}
